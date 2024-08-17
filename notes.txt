@@ -1,0 +1,11 @@
+Features
+1. Track Income and Expenses: Allow users to input their income and expenses.
+2. Categorise Transactions: Categorise transactions (e.g., food, rent, entertainment).
+3. Generate Reports: Provide monthly or yearly summaries of income and expenses.
+4. Budgeting: Set and track budgets for different categories.
+5. Data Storage: Use basic file handling to save and load data.
+
+Steps to Enhance
+1. Data Storage: Implement file handling to save transactions to a text file and load them when the program starts.
+2. Advanced Reporting: Add more detailed reports, such as weekly summaries or trend analysis.
+3. User Authentication: Add a simple login system to protect financial data.
