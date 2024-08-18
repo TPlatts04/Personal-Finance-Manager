@@ -2,14 +2,6 @@ import os
 import csv
 import sys
 
-<<<<<<< HEAD
-if __name__ == "__main__":
-    if os.path.isfile(FILENAME):
-        main()
-    else:
-        with open(FILENAME, "w") as file:
-            file.writelines("name,typeOfSpend,amount\n")
-=======
 FILENAME = "finance.csv"
 CSV_FIELDNAMES = []
 
@@ -117,5 +109,4 @@ if __name__ == "__main__":
         with open(FILENAME, "w") as file:
             file.writelines("name,typeOfSpend,spendReason,amount\n")
         assignCSVFieldnames()
->>>>>>> version-1.2
         main()
