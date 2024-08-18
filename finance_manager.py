@@ -14,7 +14,14 @@ def assignCSVFieldnames():
             i+=1
 
 def main():
-    print("Thank you for choosing Tom's Personal Finance Manager!")
+    print("\nThank you for choosing Tom's Personal Finance Manager!")
+    with open(FILENAME, "r") as file:
+        lines = file.readlines()
+        if len(lines) > 1:
+            del lines[0]
+            print("\nData in file consists of:")
+            for line in lines:
+                print(' '.join(line.strip().split(",")))
     name = input("Please enter your name here: ").capitalize()
     optionSelector(name)
 
